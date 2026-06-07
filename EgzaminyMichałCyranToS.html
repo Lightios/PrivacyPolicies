@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regulamin i Warunki Korzystania z Usługi - Egzaminy Michał Cyran</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm;
+            background-color: #ffffff;
+            @bottom-right {
+                content: counter(page);
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-size: 9pt;
+                color: #8c8c8c;
+            }
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 10pt;
+            line-height: 1.5;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        .header-banner {
+            background-color: #0f172a;
+            color: #ffffff;
+            padding: 25px 20px;
+            margin-bottom: 25px;
+            border-radius: 4px;
+        }
+
+        h1 {
+            font-size: 18pt;
+            margin: 0 0 8px 0;
+            font-weight: 700;
+        }
+
+        .header-banner p {
+            font-size: 10pt;
+            margin: 0;
+            opacity: 0.85;
+        }
+
+        h2 {
+            font-size: 12pt;
+            color: #0f172a;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #e2e8f0;
+            page-break-after: avoid;
+        }
+
+        p, ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .highlight-box {
+            background-color: #f8fafc;
+            border-left: 4px solid #0f172a;
+            padding: 12px 15px;
+            margin-bottom: 15px;
+            border-radius: 0 4px 4px 0;
+            page-break-inside: avoid;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Regulamin i Warunki Korzystania z Usługi</h1>
+        <p>Serwis: Egzaminy Michał Cyran (&nbsp;https://egzaminy.michal-cyran.pl/&nbsp;)</p>
+        <p>Ostatnia aktualizacja: 7 czerwca 2026 r.</p>
+    </div>
+
+    <p>Niniejszy dokument określa warunki, zasady oraz reguły korzystania z serwisu internetowego <strong>Egzaminy Michał Cyran</strong> dostępnego pod adresem internetowym <a href="https://egzaminy.michal-cyran.pl/">https://egzaminy.michal-cyran.pl/</a>.</p>
+
+    <h2>1. Postanowienia ogólne</h2>
+    <ol>
+        <li>Właścicielem i administratorem serwisu jest <strong>Michał Cyran</strong>, kontakt e-mail: <a href="mailto:ppistudiodev@gmail.com">ppistudiodev@gmail.com</a>.</li>
+        <li>Serwis ma charakter edukacyjny/informacyjny i służy do ułatwiania przygotowań do egzaminów.</li>
+        <li>Każdy użytkownik z chwilą rejestracji lub logowania w serwisie oświadcza, że zapoznał się z niniejszym Regulaminem i akceptuje jego postanowienia w całości.</li>
+    </ol>
+
+    <h2>2. Warunki techniczne i rejestracja konta</h2>
+    <ol>
+        <li>Do korzystania z pełnej funkcjonalności serwisu wymagane jest posiadanie urządzenia z dostępem do sieci Internet, przeglądarki internetowej obsługującej pliki cookies oraz aktywnego konta Google.</li>
+        <li>Rejestracja i logowanie w serwisie odbywają się za pośrednictwem zewnętrznej usługi uwierzytelniania dostarczanej przez firmę Google (Google OAuth 2.0).</li>
+        <li>W procesie logowania serwis pobiera i przetwarza wyłącznie adres e-mail użytkownika, co pozwala na identyfikację sesji i bezpieczny dostęp do zasobów konta. Dane te są bezpiecznie przechowywane w bazie danych serwisu (Supabase).</li>
+    </ol>
+
+    <h2>3. Zasady korzystania z serwisu</h2>
+    <ol>
+        <li>Korzystanie z serwisu w jego obecnej formie jest dobrowolne i darmowe.</li>
+        <li>Użytkownik zobowiązany jest do korzystania z serwisu w sposób zgodny z obowiązującym prawem, zasadami współżycia społecznego oraz postanowieniami niniejszego Regulaminu.</li>
+        <li>Zabrania się jakichkolwiek działań mogących zakłócić poprawne funkcjonowanie serwisu, w tym prób nieuprawnionego dostępu do baz danych (w tym infrastruktury Supabase) czy kodu źródłowego strony.</li>
+    </ol>
+
+    <h2>4. Odpowiedzialność</h2>
+    <ol>
+        <li>Administrator dokłada wszelkich starań, aby materiały i funkcjonalności dostępne w serwisie były poprawne i aktualne, jednak nie gwarantuje bezbłędnego działania serwisu.</li>
+        <li>Administrator nie ponosi odpowiedzialności za ewentualne szkody wynikłe z przerw w działaniu serwisu, awarii technicznych, utraty danych sesyjnych ani za wyniki egzaminów uzyskane przez użytkowników serwisu.</li>
+        <li>Serwis dostarczany jest w stanie takim, jaki jest ("as is").</li>
+    </ol>
+
+    <h2>5. Rezygnacja z usług i usuwanie konta</h2>
+    <ol>
+        <li>Użytkownik może w każdej chwili zaprzestać korzystania z serwisu.</li>
+        <li>W celu trwałego usunięcia swojego konta oraz powiązanego z nim adresu e-mail z bazy danych serwisu, użytkownik powinien wysłać stosowne żądanie na adres e-mail Administratora: <a href="mailto:ppistudiodev@gmail.com">ppistudiodev@gmail.com</a>. Konto zostanie usunięte ręcznie przez Administratora w możliwie najkrótszym czasie.</li>
+    </ol>
+
+    <h2>6. Ochrona danych osobowych i polityka prywatności</h2>
+    <p>Szczegółowe zasady przetwarzania danych osobowych oraz wykorzystywania plików cookies określa dedykowany dokument <strong>Polityka Prywatności</strong>, dostępny na stronie internetowej serwisu.</p>
+
+    <h2>7. Postanowienia końcowe</h2>
+    <ol>
+        <li>Administrator zastrzega sobie prawo do zmiany niniejszego Regulaminu w dowolnym czasie. Nowe warunki korzystania wchodzą w życie z dniem ich opublikowania w serwisie.</li>
+        <li>W sprawach nieuregulowanych niniejszym Regulaminem zastosowanie mają odpowiednie przepisy prawa polskiego.</li>
+    </ol>
+
+</body>
+</html>
