@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polityka Prywatności - Egzaminy Michał Cyran</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm;
+            background-color: #ffffff;
+            @bottom-right {
+                content: counter(page);
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-size: 9pt;
+                color: #8c8c8c;
+            }
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 10pt;
+            line-height: 1.5;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        .header-banner {
+            background-color: #1e293b;
+            color: #ffffff;
+            padding: 25px 20px;
+            margin-bottom: 25px;
+            border-radius: 4px;
+        }
+
+        h1 {
+            font-size: 18pt;
+            margin: 0 0 8px 0;
+            font-weight: 700;
+        }
+
+        .header-banner p {
+            font-size: 10pt;
+            margin: 0;
+            opacity: 0.85;
+        }
+
+        h2 {
+            font-size: 12pt;
+            color: #0f172a;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #e2e8f0;
+            page-break-after: avoid;
+        }
+
+        p, ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .highlight-box {
+            background-color: #f8fafc;
+            border-left: 4px solid #3b82f6;
+            padding: 12px 15px;
+            margin-bottom: 15px;
+            border-radius: 0 4px 4px 0;
+            page-break-inside: avoid;
+        }
+
+        .highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-info {
+            background-color: #f1f5f9;
+            padding: 12px;
+            border-radius: 4px;
+            margin-top: 15px;
+            display: table;
+            width: 100%;
+        }
+
+        .contact-row {
+            display: table-row;
+        }
+
+        .contact-label {
+            display: table-cell;
+            font-weight: bold;
+            width: 30%;
+            padding-bottom: 5px;
+        }
+
+        .contact-value {
+            display: table-cell;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Polityka Prywatności</h1>
+        <p>Serwis: Egzaminy Michał Cyran (&nbsp;https://egzaminy.michal-cyran.pl/&nbsp;)</p>
+        <p>Data wejścia w życie: 7 czerwca 2026 r.</p>
+    </div>
+
+    <p>Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych użytkowników korzystających z serwisu internetowego <strong>Egzaminy Michał Cyran</strong> dostępnego pod adresem <a href="https://egzaminy.michal-cyran.pl/">https://egzaminy.michal-cyran.pl/</a>.</p>
+
+    <h2>1. Administrator Danych Osobowych</h2>
+    <p>Administratorem danych osobowych zbieranych za pośrednictwem serwisu jest:</p>
+    <div class="highlight-box">
+        <strong>Michał Cyran</strong><br>
+        Kontakt e-mail w sprawach prywatności: <a href="mailto:ppistudiodev@gmail.com">ppistudiodev@gmail.com</a>
+    </div>
+
+    <h2>2. Zakres Zbieranych Danych</h2>
+    <p>Serwis ogranicza zbieranie danych do niezbędnego minimum wymaganego do świadczenia usługi logowania. Podczas rejestracji i logowania za pomocą usługi Google (Google OAuth 2.0), serwis pobiera wyłącznie:</p>
+    <ul>
+        <li><strong>Adres e-mail</strong> użytkownika.</li>
+    </ul>
+
+    <h2>3. Cel i Podstawa Prawna Przetwarzania Danych</h2>
+    <p>Dane osobowe w postaci adresu e-mail są przetwarzane w następującym celu:</p>
+    <ul>
+        <li><strong>Uwierzytelnienie i obsługa konta użytkownika:</strong> umożliwienie zalogowania się do serwisu, identyfikacja użytkownika w systemie oraz zapewnienie dostępu do funkcji strony (Podstawa prawna: art. 6 ust. 1 lit. b RODO – przetwarzanie niezbędne do wykonania umowy o świadczenie usługi drogą elektroniczną).</li>
+    </ul>
+    <p>Dane <strong>nie są</strong> wykorzystywane do celów marketingowych, wysyłki newsletterów ani udostępniane podmiotom trzecim w celach komercyjnych.</p>
+
+    <h2>4. Okres Przechowywania Danych</h2>
+    <p>Dane użytkowników są przechowywane przez czas nieokreślony, do momentu zakończenia prowadzenia projektu lub zgłoszenia przez użytkownika żądania usunięcia jego danych osobowych z bazy danych serwisu.</p>
+
+    <h2>5. Odbiorcy Danych i Infrastruktura</h2>
+    <p>W celu zapewnienia prawidłowego działania serwisu, dane są przetwarzane przy użyciu zewnętrznych rozwiązań technologicznych:</p>
+    <ul>
+        <li><strong>Google Cloud Platform (Google OAuth):</strong> wykorzystywane wyłącznie w procesie autentykacji użytkownika (pobranie adresu e-mail za zgodą użytkownika).</li>
+        <li><strong>Supabase:</strong> dostawca infrastruktury bazodanowej, na której przechowywane są konta użytkowników zgodnie z domyślnymi standardami bezpieczeństwa i polityką prywatności dostawcy tej usługi.</li>
+    </ul>
+
+    <h2>6. Prawa Użytkownika (Zgodnie z RODO)</h2>
+    <p>Każdemu użytkownikowi przysługują następujące prawa w odniesieniu do jego danych:</p>
+    <ul>
+        <li>Prawo dostępu do treśći swoich danych oraz otrzymania ich kopii.</li>
+        <li>Prawo do sprostowania (poprawiania) swoich danych.</li>
+        <li>Prawo do usunięcia danych („prawo do bycia zapomnianym”).</li>
+        <li>Prawo do ograniczenia przetwarzania danych.</li>
+        <li>Prawo do wniesienia sprzeciwu wobec przetwarzania.</li>
+        <li>Prawo do wniesienia skargi do organu nadzorczego (Prezesa Urzędu Ochrony Danych Osobowych), jeśli użytkownik uzna, że przetwarzanie danych narusza przepisy RODO.</li>
+    </ul>
+    <p>W celu realizacji swoich praw (w tym żądania usunięcia konta), należy skontaktować się bezpośrednio z Administratorem pod adresem e-mail: <strong>ppistudiodev@gmail.com</strong>.</p>
+
+    <h2>7. Polityka Plików Cookies (Ciasteczka)</h2>
+    <p>Serwis wykorzystuje pliki cookies (małe pliki tekstowe zapisywane na urządzeniu końcowym użytkownika) w celach ściśle technicznych i funkcjonalnych:</p>
+    <ul>
+        <li><strong>Utrzymanie sesji:</strong> ciasteczka niezbędne do zidentyfikowania zalogowanego użytkownika, aby nie musiał logować się ponownie przy przechodzeniu między podstronami.</li>
+        <li><strong>Zapamiętanie preferencji (Motyw strony):</strong> ciasteczka zapamiętujące wybór preferowanego wyglądu strony (motyw jasny lub ciemny).</li>
+    </ul>
+    <p>Użytkownik może w każdej chwili zmienić ustawienia dotyczące plików cookies w swojej przeglądarce internetowej, w tym całkowicie zablokować ich obsługę. Ograniczenie plików cookies może jednak wpłynąć na poprawne działanie funkcji logowania w serwisie.</p>
+
+    <h2>8. Zmiany w Polityce Prywatności</h2>
+    <p>Administrator zastrzega sobie prawo do wprowadzania zmian w niniejszej Polityce Prywatności. Wszelkie zmiany będą publikowane bezpośrednio na niniejszej stronie.</p>
+
+</body>
+</html>
